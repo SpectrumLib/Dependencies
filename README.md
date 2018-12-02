@@ -25,7 +25,7 @@ These native libraries are embedded into the Spectrum library as the "Embedded R
 
 ### [GLFW3](https://www.glfw.org/)
 
-* Author: Camilla Löwy
+* Author: Camilla Löwy (Github: elmindreda)
 * License: [zlib/libpng](https://github.com/glfw/glfw/blob/master/LICENSE.md)
 * Description: The input and windowing library used by Spectrum to create the application window and handle window and input events.
 
@@ -34,3 +34,15 @@ These native libraries are embedded into the Spectrum library as the "Embedded R
 * Author: kcat
 * License: [GNU LGPL v2](https://github.com/kcat/openal-soft/blob/master/COPYING)
 * Description: Software implementation of the OpenAL standard, used by Spectrum for audio playback and recording.
+
+### [stb_vorbis](https://github.com/nothings/stb)
+
+* Author: Sean T. Barrett (Github: nothings)
+* License: Public Domain
+* Description: Single-file stb_vorbis.c is used for decoding OGG Vorbis audio files in the custom `audio` native library.
+
+### [dr_libs](https://github.com/mackron/dr_libs)
+
+* Author: David Reid (Github: mackron)
+* License: Public Domain
+* Description: Single-file dr_flac.h and dr_wav.h are used for decoding FLAC and WAV audio files in the custom `audio` native library.
