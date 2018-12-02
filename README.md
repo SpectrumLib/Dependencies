@@ -10,7 +10,7 @@ This repo is organized by library; each library has its own folder where the nat
 * `l` = Linux
 * `m` = MacOS
 
-Libraries that also include their own compilation projects can be found in the `Compile` folder, and then again organized by library. There will be scripts in each one that can be used to build, compile, and copy all of the libraries to the correct place without ever having to open an IDE (although you will need Visual Studio installed to compile Windows binaries).
+Libraries that also include their own compilation projects can be found in the `_Compile` folder, and then again organized by library. There will be scripts in each one that can be used to build, compile, and copy all of the libraries to the correct place without ever having to open an IDE (although you will need Visual Studio installed to compile Windows binaries).
 
 When available, the native libraries are explicitly built in 64-bit, and in `Release` configuration.
 
