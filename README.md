@@ -14,6 +14,8 @@ Libraries that also include their own compilation projects can be found in the `
 
 When available, the native libraries are explicitly built in 64-bit, and in `Release` configuration.
 
+For the native libraries that must be compiled from the repo, the [Premake](https://premake.github.io/index.html) tool is used to generate compiler projects in a cross-platform fashion.
+
 ### Runtime
 
 These native libraries are embedded into the Spectrum library as the "Embedded Resource" content type. At runtime, Spectrum chooses the correct libraries to unpack, based on the current operating system, and then puts them into the same directory as the main library before they are loaded and used. While this makes the Spectrum binary a bit larger, and adds the unnecessary cruft of unusable binaries, it does allow the same single file to be used for all platforms without any changes.
