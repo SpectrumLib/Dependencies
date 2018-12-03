@@ -6,3 +6,16 @@
 
 #define DR_WAV_IMPLEMENTATION
 #include "dr_wav.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+void _stl_c_free(void* mem)
+{
+	free(mem);
+}
+
+#ifdef __cplusplus
+}
+#endif
