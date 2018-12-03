@@ -31,6 +31,7 @@ workspace "audio"
         if win_sys_ver ~= nil then
             systemversion (win_sys_ver)
         end
+        linkoptions { "/def:../audio.def" }
     filter {}
 
 project "audio"
