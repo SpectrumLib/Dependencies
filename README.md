@@ -1,10 +1,10 @@
-Native library dependencies for [Spectrum](https://github.com/SpectrumLib/Spectrum). Some are provided precompiled, others have compilation projects included.
+Native and managed library dependencies for [Spectrum](https://github.com/SpectrumLib/Spectrum). Some are provided precompiled, others have compilation projects included.
 
 This repository simply acts as a convenience for use with the main Spectrum library. All libraries are simply rehosted, and carry their original licenses and links to their original project and/or author pages. We claim authorship of none of the libraries found in this repository.
 
 ### Organization
 
-This repo is organized by library; each library has its own folder where the native binaries can be found. The binaries are differentiated by platform by the extension:
+This repo is organized by library; each library has its own folder where the native binaries can be found. The native binaries are differentiated by platform by the extension:
 
 * `w` = Windows
 * `l` = Linux
@@ -21,7 +21,7 @@ For the native libraries that must be compiled from the repo, the [Premake](http
 These native libraries are embedded into the Spectrum library as the "Embedded Resource" content type. At runtime, Spectrum chooses the correct libraries to unpack, based on the current operating system, and then puts them into the same directory as the main library before they are loaded and used. While this makes the Spectrum binary a bit larger, and adds the unnecessary cruft of unusable binaries, it does allow the same single file to be used for all platforms without any changes.
 
 
-## Libraries
+## Native Libraries
 
 ### [GLFW3](https://www.glfw.org/)
 
@@ -46,3 +46,11 @@ These native libraries are embedded into the Spectrum library as the "Embedded R
 * Author: David Reid (Github: mackron)
 * License: Public Domain
 * Description: Single-file dr_flac.h and dr_wav.h are used for decoding FLAC and WAV audio files in the custom `audio` native library.
+
+## Managed Libraries
+
+### [VulkanCore](https://github.com/discosultan/VulkanCore)
+
+* Author: Jaanus Varus (Github: discosultan)
+* License: [MIT](https://github.com/discosultan/VulkanCore/blob/master/LICENSE)
+* Description: C# bindings for Vulkan, slightly modified to target .NET Standard 2.0, and with the extra dependencies removed.
