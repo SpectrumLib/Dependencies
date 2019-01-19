@@ -11,7 +11,7 @@
   .publickeytoken = (CC 7B 13 FF CD 2D DD 51 )                         // .{...-.Q
   .ver 2:0:0:0
 }
-.assembly VulkanCoreIL
+.assembly VulkanCore
 {
   .custom instance void [netstandard]System.Runtime.CompilerServices.ExtensionAttribute::.ctor() = ( 01 00 00 00 ) 
   .custom instance void [netstandard]System.Runtime.CompilerServices.CompilationRelaxationsAttribute::.ctor(int32) = ( 01 00 08 00 00 00 00 00 ) 
@@ -25,21 +25,21 @@
                                                                                                            56 65 72 73 69 6F 6E 3D 76 32 2E 30 01 00 54 0E   // Version=v2.0..T.
                                                                                                            14 46 72 61 6D 65 77 6F 72 6B 44 69 73 70 6C 61   // .FrameworkDispla
                                                                                                            79 4E 61 6D 65 00 )                               // yName.
-  .custom instance void [netstandard]System.Reflection.AssemblyCompanyAttribute::.ctor(string) = ( 01 00 0C 56 75 6C 6B 61 6E 43 6F 72 65 49 4C 00   // ...VulkanCoreIL.
+  .custom instance void [netstandard]System.Reflection.AssemblyCompanyAttribute::.ctor(string) = ( 01 00 0C 56 75 6C 6B 61 6E 43 6F 72 65 49 4C 00   // ...VulkanCore.
                                                                                                    00 ) 
   .custom instance void [netstandard]System.Reflection.AssemblyConfigurationAttribute::.ctor(string) = ( 01 00 07 52 65 6C 65 61 73 65 00 00 )             // ...Release..
   .custom instance void [netstandard]System.Reflection.AssemblyFileVersionAttribute::.ctor(string) = ( 01 00 07 31 2E 30 2E 30 2E 30 00 00 )             // ...1.0.0.0..
   .custom instance void [netstandard]System.Reflection.AssemblyInformationalVersionAttribute::.ctor(string) = ( 01 00 05 31 2E 30 2E 30 00 00 )                   // ...1.0.0..
-  .custom instance void [netstandard]System.Reflection.AssemblyProductAttribute::.ctor(string) = ( 01 00 0C 56 75 6C 6B 61 6E 43 6F 72 65 49 4C 00   // ...VulkanCoreIL.
+  .custom instance void [netstandard]System.Reflection.AssemblyProductAttribute::.ctor(string) = ( 01 00 0C 56 75 6C 6B 61 6E 43 6F 72 65 49 4C 00   // ...VulkanCore.
                                                                                                    00 ) 
-  .custom instance void [netstandard]System.Reflection.AssemblyTitleAttribute::.ctor(string) = ( 01 00 0C 56 75 6C 6B 61 6E 43 6F 72 65 49 4C 00   // ...VulkanCoreIL.
+  .custom instance void [netstandard]System.Reflection.AssemblyTitleAttribute::.ctor(string) = ( 01 00 0C 56 75 6C 6B 61 6E 43 6F 72 65 49 4C 00   // ...VulkanCore.
                                                                                                  00 ) 
   .permissionset reqmin
              = {[netstandard]System.Security.Permissions.SecurityPermissionAttribute = {property bool 'SkipVerification' = bool(true)}}
   .hash algorithm 0x00008004
   .ver 1:0:0:0
 }
-.module VulkanCoreIL.dll
+.module VulkanCore.dll
 // MVID: {3BB8C353-B9AD-429A-84BE-F7B0D929AB00}
 .custom instance void [netstandard]System.Security.UnverifiableCodeAttribute::.ctor() = ( 01 00 00 00 ) 
 .imagebase 0x0000000180000000
@@ -44233,8 +44233,3 @@
                                                                                                             00 00 00 00 00 ) 
 } // end of class VulkanCore.Amd.ShaderStatisticsInfoAmd
 
-
-// =============================================================
-
-// *********** DISASSEMBLY COMPLETE ***********************
-// WARNING: Created Win32 resource file C:\Users\mosss\Downloads\VulkanCore-1.0.0-alpha40\VulkanCoreIL\obj\Release\netstandard2.0\VulkanCoreIL.res
