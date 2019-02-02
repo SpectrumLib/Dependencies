@@ -54,3 +54,9 @@ These native libraries are embedded into the Spectrum library as the "Embedded R
 * Author: Jaanus Varus (Github: discosultan)
 * License: [MIT](https://github.com/discosultan/VulkanCore/blob/master/LICENSE)
 * Description: C# bindings for Vulkan, slightly modified to target .NET Standard 2.0, and with the extra dependencies removed.
+
+### [Eto.Forms](https://github.com/picoe/Eto)
+
+* Author: Picoe Software Solutions  (Github: picoe)
+* License: [BSD-3](https://github.com/picoe/Eto/blob/develop/LICENSE.txt)
+* Description: Cross platform GUI library, used to implement the interface for Prism.
