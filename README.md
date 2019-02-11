@@ -60,3 +60,9 @@ These native libraries are embedded into the Spectrum library as the "Embedded R
 * Author: Picoe Software Solutions  (Github: picoe)
 * License: [BSD-3](https://github.com/picoe/Eto/blob/develop/LICENSE.txt)
 * Description: Cross platform GUI library, used to implement the interface for Prism.
+
+### [K4os.Compression.LZ4](https://github.com/MiloszKrajewski/K4os.Compression.LZ4)
+
+* Author: Milosz Krajewski (Github: MiloszKrajewski)
+* License: [MIT](https://github.com/MiloszKrajewski/K4os.Compression.LZ4/blob/master/LICENSE)
+* Description: Managed implementation of the LZ4 compression standard, used to compress/decompress content items.
