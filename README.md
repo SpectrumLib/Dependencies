@@ -66,3 +66,9 @@ These native libraries are embedded into the Spectrum library as the "Embedded R
 * Author: Milosz Krajewski (Github: MiloszKrajewski)
 * License: [MIT](https://github.com/MiloszKrajewski/K4os.Compression.LZ4/blob/master/LICENSE)
 * Description: Managed implementation of the LZ4 compression standard, used to compress/decompress content items.
+
+### [SixLabors.ImageSharp](https://github.com/SixLabors/ImageSharp)
+
+* Authors: Multiple (see Github page)
+* License: [Apache v2](https://github.com/SixLabors/ImageSharp/blob/master/LICENSE)
+* Description: Used by the Prism content pipeline to load and manipulate image data.
