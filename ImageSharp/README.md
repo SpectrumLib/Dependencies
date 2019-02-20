@@ -1,5 +1,7 @@
-# VulkanCore
+# ImageSharp
 
-This folder contains the SixLabors.Core and SixLabors.ImageSource projects compiled from source, restargeted to x64.
+This folder contains the managed library SixLabors.ImageSharp and its dependencies, and uses ILRepack to put all of them
+into a single assembly.
 
-This folder also contains the netstandard 2.0 Nuget build of System.Memory at version 4.5.2, which is required for references to `ReadOnlySpan<T>`.
+To update this library, download the ImageSharp and SixLabors.Core sources, retarget to x64, and build release for netstandard 2.0.
+Then put the new files into this directory and re-run the build.bat script.
