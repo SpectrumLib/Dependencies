@@ -1,27 +1,36 @@
-Native and managed library dependencies for [Spectrum](https://github.com/SpectrumLib/Spectrum). Some are provided precompiled, others have compilation projects included.
+# Spectrum Dependencies
 
-This repository simply acts as a convenience for use with the main Spectrum library. All libraries are simply rehosted, and carry their original licenses and links to their original project and/or author pages. We claim authorship of none of the libraries found in this repository.
+Native and managed library dependencies for [Spectrum](https://github.com/SpectrumLib/Spectrum). 
 
-### Organization
+Some are provided precompiled, others have compilation projects included.
 
-This repo is organized by library; each library has its own folder where the native binaries can be found. The native binaries are differentiated by platform by the extension:
+All libraries are simply rehosted, and carry their original licenses and links to their original project and/or author pages. We claim authorship of none of the libraries found in this repository.
 
-* `w` = Windows
-* `l` = Linux
-* `m` = MacOS
+### Repo Organization
 
-Libraries that also include their own compilation projects can be found in the `_Compile` folder, and then again organized by library. There will be scripts in each one that can be used to build, compile, and copy all of the libraries to the correct place without ever having to open an IDE (although you will need Visual Studio installed to compile Windows binaries).
+The organization of the repository is into 4 top-level folders:
 
-When available, the native libraries are explicitly built in 64-bit, and in `Release` configuration.
+* `Managed`: The managed library dependencies, as they are meant to be consumed by the Spectrum project.
+* `Native`: The native (unmanaged) library dependencies, as they are meant to be consumed by the Spectrum project.
+* `Source`: The documentation, scripts, source code, ect... that are used to build the dependencies. They are divided into their various projects within this folder.
+* `Tools`: The meta-tools used to build the dependencies, such as ILRepack, and Premake executables for the 3 main desktop OSes.
+
+### Native Library Naming
+
+The native libraries are named in such a way that they can be easily grouped, but differentiated by the operating system they were build for.
+
+The same library will have the same base name for all target systems, but will have the following extensions:
+
+* `w` - Windows
+* `l` - Linux (built using Ubuntu 16.04 where possible), designed to run on recent Debian-based flavors
+* `m` - MacOS
+
+They consistent name and different extensions are required by the Spectrum and Prism runtimes to work properly. They are used as `Embedded Resource`s within the libraries,
+and the correct library for the current platform is selected, extracted, and loaded at runtime.
 
 For the native libraries that must be compiled from the repo, the [Premake](https://premake.github.io/index.html) tool is used to generate compiler projects in a cross-platform fashion.
 
-### Runtime
-
-These native libraries are embedded into the Spectrum library as the "Embedded Resource" content type. At runtime, Spectrum chooses the correct libraries to unpack, based on the current operating system, and then puts them into the same directory as the main library before they are loaded and used. While this makes the Spectrum binary a bit larger, and adds the unnecessary cruft of unusable binaries, it does allow the same single file to be used for all platforms without any changes.
-
-
-## Native Libraries
+# Native Libraries
 
 ### [GLFW3](https://www.glfw.org/)
 
@@ -35,31 +44,13 @@ These native libraries are embedded into the Spectrum library as the "Embedded R
 * License: [GNU LGPL v2](https://github.com/kcat/openal-soft/blob/master/COPYING)
 * Description: Software implementation of the OpenAL standard, used by Spectrum for audio playback and recording.
 
-### [stb_vorbis](https://github.com/nothings/stb)
-
-* Author: Sean T. Barrett (Github: nothings)
-* License: Public Domain
-* Description: Single-file stb_vorbis.c is used for decoding OGG Vorbis audio files in the custom `audio` native library.
-
-### [dr_libs](https://github.com/mackron/dr_libs)
-
-* Author: David Reid (Github: mackron)
-* License: Public Domain
-* Description: Single-file dr_flac.h and dr_wav.h are used for decoding FLAC and WAV audio files in the custom `audio` native library.
-
-## Managed Libraries
+# Managed Libraries
 
 ### [VulkanCore](https://github.com/discosultan/VulkanCore)
 
 * Author: Jaanus Varus (Github: discosultan)
 * License: [MIT](https://github.com/discosultan/VulkanCore/blob/master/LICENSE)
 * Description: C# bindings for Vulkan, slightly modified to target .NET Standard 2.0, and with the extra dependencies removed.
-
-### [Eto.Forms](https://github.com/picoe/Eto)
-
-* Author: Picoe Software Solutions  (Github: picoe)
-* License: [BSD-3](https://github.com/picoe/Eto/blob/develop/LICENSE.txt)
-* Description: Cross platform GUI library, used to implement the interface for Prism.
 
 ### [K4os.Compression.LZ4](https://github.com/MiloszKrajewski/K4os.Compression.LZ4)
 

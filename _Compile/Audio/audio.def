@@ -1,7 +1,0 @@
-EXPORTS 
-drwav_open_and_read_file_s16
-drwav_free
-drflac_open_and_decode_file_s16
-drflac_free
-stb_vorbis_decode_filename
-_stl_c_free
