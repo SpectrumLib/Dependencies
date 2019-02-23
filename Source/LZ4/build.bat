@@ -19,4 +19,5 @@ if exist %OutFile% (
     del %OutFile%
 )
 
-"..\..\Tools\ILRepack.exe" /target:library /internalize %BaseFile% %DepFiles% /out:%OutFile%
+@rem Do not internalize this, we need access to more than just the base library
+"..\..\Tools\ILRepack.exe" /target:library %BaseFile% %DepFiles% /out:%OutFile%
