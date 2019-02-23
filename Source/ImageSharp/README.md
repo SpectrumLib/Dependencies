@@ -2,8 +2,8 @@
 
 This dependency is a managed implementation of standard image file format encoders and decoders. It is a packed version of the following libraries:
 
-* SixLabors.Core (v0.1.0)
-* SixLabors.ImageSharp (v0.0.1)
+* SixLabors.Core (v1.0.0-beta7)
+* SixLabors.ImageSharp (v1.0.0-beta0006)
 
 ## Building
 
