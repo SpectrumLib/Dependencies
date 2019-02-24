@@ -1,0 +1,10 @@
+EXPORTS
+stl_c_free
+stl_c_alloc
+stb_vorbis_decode_filename
+drwav_open_file_and_read_pcm_frames_s16
+drwav_free
+drflac_open_file_and_read_pcm_frames_s16
+drflac_free
+drmp3_open_file_and_read_f32
+drmp3_free

@@ -1,6 +1,6 @@
 # ImageLoader
 
-This contains the header file, implementation file, and build script for the `stb_image` library. This is used to load images in the Prism pipeline project, and supports a variety of image types.
+This contains the header files, implementation file, and build script for the `stb_image` and `stb_image_resize` libraries. These are used to load images in the Prism pipeline project, and support a variety of image types.
 
 Contains the following libraries:
 
@@ -15,3 +15,4 @@ Contains the following libraries:
 4. Open/Run the solution/Makefile and build the library
 5. Copy the library from the `build/bin/` folder and place it into the root `Native/` folder.
 6. Give the library the correct extension for the platform.
+7. Update the versions in this file.

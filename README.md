@@ -48,7 +48,13 @@ For the native libraries that must be compiled from the repo, the [Premake](http
 
 * Author: Sean T. Barrett (Github: nothings)
 * Licence: Public Domain
-* Description: Native image loading and resizing with stb_image and stb_image_resize.
+* Description: Native image loading and resizing with stb_image and stb_image_resize. Native ogg vorbis audio decoding with stb_vorbis.
+
+### [dr_libs](https://github.com/mackron/dr_libs)
+
+* Author: David Reed (Github: mackron)
+* License: Public Domain
+* Description: Native wave, flac, and mp3 audio file decoding using dr_wav, dr_flac, and dr_mp3.
 
 # Managed Libraries
 
