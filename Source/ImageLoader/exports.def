@@ -1,7 +1,0 @@
-EXPORTS
-stbi_load
-stbi_image_free
-stbi_failure_reason
-stbir_resize_uint8
-stl_c_free
-stl_c_alloc
