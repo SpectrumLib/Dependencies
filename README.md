@@ -17,10 +17,16 @@ Linux libraries must be installed on the system, and are not packaged into the l
 
 The consistent name and different extensions are required by the Spectrum and Prism runtimes to work properly. They are used as `Embedded Resource`s within the libraries, and the correct library for the current platform is selected, extracted to a version-specific temp folder, and loaded at runtime.
 
+# Managed Libraries
+
+### [SharpVk](https://github.com/FacticiusVir/SharpVk)
+
+* License: [MIT](https://github.com/FacticiusVir/SharpVk/blob/master/LICENSE)
+* Description: C# Bindings to the Vulkan API.
+
 # Native Libraries
 
 ### [GLFW3](https://www.glfw.org/)
 
-* Author: Camilla Löwy (Github: elmindreda)
 * License: [zlib/libpng](https://github.com/glfw/glfw/blob/master/LICENSE.md)
 * Description: The library used for windowing and input.
