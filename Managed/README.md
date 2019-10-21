@@ -10,8 +10,11 @@ SharpVk is available in source as a .Net Standard 2.0 library. The following cha
 
 1. Removed all projects from the solution, except for SharpVk.
 2. Retargeted SharpVk to .Net Standard 2.1, and platform x64.
-3. Removed nuget package references.
-4. Changed all `Unsafe.SizeOf` references to `Marshal.SizeOf`.
+3. Remove Nuget package reference to the ValueTuple library.
+4. Update the CompilerServices library to the latest version.
 5. Built the Release version for use as the official library reference.
+6. Copy the SharpVK library as the dependency library.
+7. Download and extract the matching CompilerServices.Unsafe nuget package.
+8. Copy the .net standard 2.0 version of the library as the dependency library.
 
-The current SharpVK version is from master branch commit `ae5216d`.
+The current SharpVK version is from master branch commit `ae5216d`, using System.Runtime.CompilerServices.Unsafe version 4.6.0.
