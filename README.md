@@ -24,6 +24,16 @@ The consistent name and different extensions are required by the Spectrum and Pr
 * License: [MIT](https://github.com/FacticiusVir/SharpVk/blob/master/LICENSE)
 * Description: C# Bindings to the Vulkan API.
 
+### [K4os.Compression.LZ4](https://github.com/MiloszKrajewski/K4os.Compression.LZ4)
+
+* License: [MIT](https://github.com/MiloszKrajewski/K4os.Compression.LZ4/blob/master/LICENSE)
+* Description: Managed implementation of the LZ4 compression algorithm.
+
+### [K4os.Hash.xxHash](https://github.com/MiloszKrajewski/K4os.Hash.xxHash)
+
+* License: [MIT](https://github.com/MiloszKrajewski/K4os.Hash.xxHash/blob/master/LICENSE)
+* Description: Dependency of K4os.Compression.LZ4
+
 # Native Libraries
 
 ### [GLFW3](https://www.glfw.org/)

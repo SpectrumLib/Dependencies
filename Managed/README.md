@@ -15,3 +15,11 @@ SharpVk is available in source as a .Net Standard 2.0 library. The following ste
 5. Copy the SharpVK library as the dependency library.
 
 The current SharpVK version is from master branch commit `ae5216d`. The CompilerServices.Unsafe library is not required, as it is included in the .NET Core 3 runtime.
+
+## K4os.Compression.LZ4 | K4os.Hash.xxHash
+
+The following .NET Standard 2.0 Nuget releases are used:
+
+* K4os.Compression.LZ4 - `v1.1.11`
+* K4os.Compression.LZ4.Streams - `v1.1.11`
+* K4os.Hash.xxHash - `v1.0.6`
