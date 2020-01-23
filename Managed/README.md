@@ -23,3 +23,7 @@ The following .NET Standard 2.0 Nuget releases are used:
 * K4os.Compression.LZ4 - `v1.1.11`
 * K4os.Compression.LZ4.Streams - `v1.1.11`
 * K4os.Hash.xxHash - `v1.0.6`
+
+## YamlDotNet
+
+This uses the `8.0.0` Nuget release for .Net Standard 2.1.

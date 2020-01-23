@@ -34,6 +34,11 @@ The consistent name and different extensions are required by the Spectrum and Pr
 * License: [MIT](https://github.com/MiloszKrajewski/K4os.Hash.xxHash/blob/master/LICENSE)
 * Description: Dependency of K4os.Compression.LZ4
 
+### [YamlDotNet](https://github.com/aaubry/YamlDotNet)
+
+* License: [MIT](https://github.com/aaubry/YamlDotNet/blob/master/LICENSE.txt)
+* Description: YAML reader/writer used for Spectrum content files.
+
 # Native Libraries
 
 ### [GLFW3](https://www.glfw.org/)
