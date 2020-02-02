@@ -39,6 +39,11 @@ The consistent name and different extensions are required by the Spectrum and Pr
 * License: [MIT](https://github.com/aaubry/YamlDotNet/blob/master/LICENSE.txt)
 * Description: YAML reader/writer used for Spectrum content files.
 
+### [StbImageSharp](https://github.com/StbSharp/StbImageSharp)
+
+* License: Public Domain
+* Description: Port of [stb_image.h](https://github.com/nothings/stb/blob/master/stb_image.h), used by Prism.Pipeline to load a variety of image files.
+
 # Native Libraries
 
 ### [GLFW3](https://www.glfw.org/)

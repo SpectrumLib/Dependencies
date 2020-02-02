@@ -27,3 +27,7 @@ The following .NET Standard 2.0 Nuget releases are used:
 ## YamlDotNet
 
 This uses the `8.0.0` Nuget release for .Net Standard 2.1.
+
+## StbImageSharp
+
+This uses the `2.22.2` Nuget release for .Net Standard 2.0.
