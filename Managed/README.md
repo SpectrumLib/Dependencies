@@ -31,3 +31,11 @@ This uses the `8.0.0` Nuget release for .Net Standard 2.1.
 ## StbImageSharp
 
 This uses the `2.22.2` Nuget release for .Net Standard 2.0.
+
+## StbVorbisSharp
+
+This uses the `1.16.2` Nuget release for .Net Standard 2.0.
+
+## Syroot.CSCore.Flac.dll
+
+This uses the `1.2.1.2` Nuget release for .Net Standard 2.0.

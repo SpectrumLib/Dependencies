@@ -44,6 +44,16 @@ The consistent name and different extensions are required by the Spectrum and Pr
 * License: Public Domain
 * Description: Port of [stb_image.h](https://github.com/nothings/stb/blob/master/stb_image.h), used by Prism.Pipeline to load a variety of image files.
 
+### [StbVorbisSharp](https://github.com/StbSharp/StbVorbisSharp)
+
+* License: Public Domain
+* Description: Port of [stb_vorbis.c](https://github.com/nothings/stb/blob/master/stb_vorbis.c), used by Prism.Pipeline to load OGG Vorbis audio files.
+
+### [Syroot.CSCore.Flac](https://gitlab.com/Syroot/CSCore.Flac/tree/master)
+
+* License: [Ms-PL](https://gitlab.com/Syroot/CSCore.Flac/blob/master/LICENSE)
+* Description: FLAC loading code from [CSCore](https://github.com/filoe/cscore), cherry-picked and made available as .Net Standard. 
+
 # Native Libraries
 
 ### [GLFW3](https://www.glfw.org/)
